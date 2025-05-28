@@ -6,6 +6,7 @@ import MainLayout from "../MainLayout/MainLayout";
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/SignUp/SignUp";
+import DashBoard from "../DashBoard/DashBoard";
 
 
 
@@ -30,4 +31,8 @@ export const router = createBrowserRouter([
 
     ]
   },
+  {
+    path:"/dashboard",
+    element:<DashBoard></DashBoard>
+  }
 ]);
